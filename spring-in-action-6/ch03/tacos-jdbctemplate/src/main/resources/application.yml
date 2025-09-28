@@ -1,0 +1,10 @@
+#tag::setDatabaseName[]
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+    generate-unique-name: false
+    name: tacocloud
+#end::setDatabaseName[]
